@@ -1,0 +1,15 @@
+# 1. DEPENDENCIES AND ARTIFACTS
+# Ignore the node_modules folder in all subdirectories (backend, frontend, admin)
+node_modules/
+
+# 2. ENVIRONMENT VARIABLES (CRITICAL FOR SECURITY)
+# Ignore all files ending with .env (e.g., .env, .env.development, .env.production)
+*.env
+# Ignore specific local environment files
+.env.local
+
+# 3. BUILD OUTPUT & CACHE
+# Ignore built files that are automatically generated and should not be version controlled
+/dist
+/build
+.vite
